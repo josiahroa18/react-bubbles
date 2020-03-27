@@ -51,7 +51,7 @@ const ColorList = ({ colors, updateColors }) => {
         ))}
       </ul>
       {editing && (
-        <form onSubmit={saveEdit}>
+        <form onSubmit={saveEdit} className='color-form'>
           <legend>edit color</legend>
           <label>
             color name:
